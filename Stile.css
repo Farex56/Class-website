@@ -127,7 +127,7 @@ p {
 
 .grid-container{
     display: grid;
-    background-color: #433991;
+    background-color: #f3f3f3;
     grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
     position: relative;
@@ -138,6 +138,12 @@ p {
     border: 10px double black;
 
 } 
+
+.discord{
+
+    display: none;
+
+}
 
 @media (max-width: 600px) {
     .grid-container{
@@ -159,9 +165,37 @@ p {
         padding: 0.6em;
     }
 
+iframe{
+display: none;
 
 
 }
+a.discord {
+    text-decoration: none;
+    color: #000;
+}
+.discord {
+    width: 18px;
+    display: block;
+    font-family: Arial;
+    position: relative;
+    left: 80%;
+/*     background-image: url(https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png);
+ */   
+    
+
+}
+a.discord:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+}
+
+ 
 
 
 .hidden{
@@ -407,7 +441,7 @@ a.link-materie.Infolink {
     padding: 0;
     position: absolute;
     top: 100%;
-    background: linear-gradient(90deg, rgba(196,28,28,1) 0%, rgba(122,141,208,1) 40%, rgba(122,141,208,1) 60%, rgba(19,88,139,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(120,139,205,1) 66%, rgba(120,139,205,1) 100%);
     border-top: 5px solid #000;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -429,32 +463,11 @@ a.link-materie{
 
 
 
-
-.link-footer{
-    padding-inline-start: 0;
-    padding: 0;
-    padding-inline-end: 0;
-}
-
-
-.link-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-}
+/* 
 
 
 
-.social {
-    display: inline;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    
-    
-}
+
 
 a.reddit {
     text-decoration: none;
@@ -466,15 +479,10 @@ a.reddit:hover {
     color: #ffffff;
 }
 
-a.discord {
-    text-decoration: none;
-    color: #000;
-}
 
 
-a.discord:hover {
-    color: #ffffff;
-}
+
+
 
 a.steam {
     text-decoration: none;
@@ -487,9 +495,9 @@ a.steam:hover {
 }
 
 
+ */
 
-
-.reddit{
+/* .reddit{
     list-style-position: inside;
       background-image: url(reddit-icon.png);
       background-position: 0;
@@ -497,19 +505,28 @@ a.steam:hover {
       padding-left: 2rem;
       background-size: 20px 20px;
       list-style-type: none;
-}
-.discord {
-    list-style-position: inside;
-    background-image: url(https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png);
-    background-position: 0 ;
-    background-repeat: no-repeat;
-    padding-left: 2rem;
-    background-size: 20px 20px;
-    list-style-type: none;
+} */
+
+iframe{
+
+position: relative;
+left: 70%;
+
 
 }
+@media (max-width: 1175px) {
 
-.steam {
+    iframe{
+    position: relative;
+    left: 60%;
+    
+    }
+    
+    } 
+
+
+
+/* .steam {
     list-style-position: inside;
     background-image: url(https://cdn.freebiesupply.com/images/large/2x/steam-logo-transparent.png);
     background-position: 0 ;
@@ -518,4 +535,4 @@ a.steam:hover {
     background-size: 20px 20px;
     list-style-type: none;
 }
-
+ */
